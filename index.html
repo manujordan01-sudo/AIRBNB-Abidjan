@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AIRBNB ABIDJAN | Location & Vente d’Appartements</title>
+  <meta name="description" content="AIRBNB ABIDJAN – Location courte durée, longue durée et vente d’appartements haut standing à Abidjan." />
+  <link rel="shortcut icon" href="img.png3.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--primary:#0f172a;--gold:#c9a24d;--light:#f8fafc}
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{font-family:Poppins,sans-serif;color:#0f172a}
+    a{text-decoration:none;color:inherit}
+    header{background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') center/cover;min-height:100vh;color:#fff}
+    nav{display:flex;justify-content:space-between;align-items:center;padding:20px 8%}
+    nav h1{color:var(--gold)}
+    nav ul{display:flex;gap:20px;list-style:none}
+    .hero{padding:120px 8%;max-width:700px}
+    .hero h2{font-size:46px;margin-bottom:20px}
+    .hero p{margin-bottom:30px;font-size:18px}
+    .btn{background:var(--gold);padding:14px 28px;border-radius:30px;font-weight:600;display:inline-block;color:#000}
+    section{padding:80px 8%}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px}
+    .card{box-shadow:0 10px 30px rgba(0,0,0,.1);border-radius:20px;overflow:hidden}
+    .card img{width:100%;height:200px;object-fit:cover}
+    .card-body{padding:20px}
+    .price{color:var(--gold);font-weight:700}
+    footer{background:#020617;color:#cbd5f5;text-align:center;padding:40px}
+    .whatsapp{position:fixed;bottom:20px;right:20px;background:#25D366;color:#fff;padding:16px 22px;border-radius:50px;font-weight:600}
+    @media(max-width:768px){.hero h2{font-size:34px}}
+  </style>
+</head>
+<body>
+
+<header id="home">
+  <nav>
+    <h1>AIRBNB ABIDJAN</h1>
+    <ul>
+      <li><a href="#home">Accueil</a></li>
+      <li><a href="#biens">Biens</a></li>
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="hero">
+    <h2>Location d’Appartements à Abidjan</h2>
+    <p>Studios, appartements meublés et haut standing – Cocody, Angré et environs</p>
+    <a href="#biens" class="btn">Voir les appartements</a>
+  </div>
+</header>
+
+<section id="biens">
+  <h2>Nos biens disponibles</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="img 1 wha.jpeg" alt="Appartement Cocody angré">
+      <div class="card-body">
+        <h3>Appartement studio américain – Cocody angré</h3>
+        <p>Meublé – Sécurité – chauffe eau - micro-onde - wifi - canal - climatisation - cuisine équiper</p>
+        <p class="price">20.000 FCFA / JOURS</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img 2 wha.jpeg" alt="Appartement Cocody angré">
+      <div class="card-body">
+        <h3>studio Haut standing – Cocody angré</h3>
+        <p>une belle vue – tres équiper - wifi - chauffe eau - canal - climatisation - cuisine équiper - sécurité - confort</p>
+        <p class="price">25.000 FCFA / JOURS</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb" alt="Studio Zone 4">
+      <div class="card-body">
+        <h3>Studio – Zone 4</h3>
+        <p>Location courte durée</p>
+        <p class="price">45 000 FCFA / nuit</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" style="background:#f8fafc">
+  <div style="max-width:1100px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center">
+    <div>
+      <h2 style="font-size:36px;margin-bottom:20px">À propos de <span style="color:#c9a24d">AIRBNB ABIDJAN</span></h2>
+      <p style="font-size:18px;margin-bottom:15px;line-height:1.7">
+        AIRBNB ABIDJAN est une entreprise spécialisée dans la <strong>location courte durée</strong>, la <strong>location longue durée</strong> et la <strong>vente d’appartements haut standing</strong> à Abidjan.
+      </p>
+      <p style="font-size:18px;line-height:1.7">
+        Nous accompagnons particuliers, expatriés, diaspora et entreprises avec des logements modernes, sécurisés et idéalement situés à ABIDJAN Cocody, Angré et environs.
+      </p>
+      <p style="margin-top:20px;font-weight:600;color:#020617">✔ Fiabilité & Transparence<br>✔ Service client réactif<br>✔ Confort & Sécurité</p>
+    </div>
+    <div>
+      <img src="https://images.unsplash.com/photo-1501183638710-841dd1904471" alt="Immobilier Abidjan" style="width:100%;border-radius:20px;box-shadow:0 20px 40px rgba(0,0,0,.15)">
+    </div>
+  </div>
+</section>
+
+<section id="contact" style="background:#020617;color:#fff">
+  <div style="max-width:900px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center">
+    <div>
+      <h2 style="font-size:36px;margin-bottom:20px;color:#c9a24d">Contactez-nous</h2>
+      <p style="font-size:18px;margin-bottom:20px;line-height:1.7">
+        Vous souhaitez louer, acheter ou réserver un appartement à Abidjan ?
+        Contactez-nous directement. Notre équipe vous répond rapidement.
+      </p>
+      <p style="font-size:18px;line-height:1.7">
+        📍 Abidjan – Cocody, Angré et environs<br>
+        📞 Disponible sur WhatsApp<br>
+        📩 Réponse par email garantie
+      </p>
+    </div>
+    <div style="background:#fff;color:#020617;padding:40px;border-radius:20px;box-shadow:0 20px 40px rgba(0,0,0,.3)">
+      <form action="https://formsubmit.co/manujordan01@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="Nom complet" required style="width:100%;padding:14px;margin-bottom:15px;border-radius:10px;border:1px solid #e5e7eb">
+        <input type="email" name="email" placeholder="Adresse email" required style="width:100%;padding:14px;margin-bottom:15px;border-radius:10px;border:1px solid #e5e7eb">
+        <textarea name="message" placeholder="Votre message" rows="5" style="width:100%;padding:14px;margin-bottom:20px;border-radius:10px;border:1px solid #e5e7eb"></textarea>
+
+        <input type="hidden" name="_subject" value="Nouveau message - AIRBNB ABIDJAN">
+        <input type="hidden" name="_captcha" value="false">
+
+        <button class="btn" type="submit" style="width:100%">Envoyer le message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<a class="whatsapp" href="https://wa.me/2250101551050" target="_blank">WhatsApp</a>
+
+<footer>
+  <p>© 2025 AIRBNB ABIDJAN – Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
